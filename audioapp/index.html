@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <link type="image/png" sizes="32x32" rel="icon" href="assets/img/favicon.ico">
+        <title>eco-sounds</title>       
+    </head>
+    <body>
+        <header>
+            <div class="container header-container">
+            <img class="logo" src="assets/svg/logo.svg" alt="logo">
+            <nav>
+                <ul class="nav  nav-items list-reset">
+                    <li>
+                        <a href="#" class="list-item"  data-set="solovey" data-audio="solovey">Соловей</a>
+                     </li>
+                     <li>
+                        <a href="#" class="list-item" data-set="drozd" data-audio="drozd">Дрозд</a>
+                     </li>
+                     <li>
+                        <a href="#" class="list-item" data-set="malinovka" data-audio="malinovka">Малиновка</a>
+                     </li>
+                     <li>
+                        <a href="#" class="list-item" data-set="javaronok" data-audio="javaronok">Жаворонок</a>
+                     </li>
+                     <li >
+                        <a href="#" class="list-item" data-set="slavka" data-audio="slavka">Славка</a>
+                     </li> 
+                </ul>
+            </nav>
+        </div>
+        </header>
+    <main>
+     <section class="player">
+        <div class="bg">
+            <img class="bg" src="assets/img/forest.jpg" alt="bg"> 
+            <audio class="audio" src="./assets/audio/forest.mp3" type="audio/mp3"></audio>   
+        </div>
+        <div class="btn">        
+        <button class="changeBtn">
+            <div class="play"></div>
+            <div class="stop"></div>
+        </button>
+        </div>
+     </section>   
+    </main> 
+
+    <footer> 
+        <div class="container footer-container">
+        <div class="footer-data">
+            <span>©</span>
+            <p>2022</p>
+            <a href="https://github.com/Marricone23"><p>github</p></a>
+        </div>  
+        <div class="footer-rsschool">
+            <a href="https://rs.school/js/"><img class="rs" src="assets/svg/rss.svg"></a>
+        </div>
+    </div>
+    </footer>  
+    <script src="script.js"></script>
+</body>
+</html>
